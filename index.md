@@ -32,7 +32,7 @@ of Interim:
 
 - [Python 2.7](http://wiki.python.org/moin/BeginnersGuide/Download)
 - A [text editor][editor]. I recommend [Notepad++][notepad] for PC and
-  [TextWrangler][wrangler]. Linux users can use [gedit][gedit].
+  [TextWrangler][wrangler] for Mac. Linux users can use [gedit][gedit].
 - A modern web browser such as [Firefox][firefox] or [Google Chrome][chrome]
 - A client for uploading files to a web server, such as [FileZilla Client][filezilla].
 
@@ -51,9 +51,8 @@ Athenian '06<br />
 
 Andrew Glassco<br/>
 Athenian Faculty<br />
-<br />
-[kev@inburke.com][email]<br />
-[http://kev.inburke.com][site]<br />
+310-689-9038<br />
+House 6<br />
 
 
 ### BART Notes
