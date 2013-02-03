@@ -1,3 +1,4 @@
+<title>Learn to Code</title>
 <link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link>
 
 # Learn to Code Interim
@@ -63,7 +64,10 @@ Athenian '06<br />
 Andrew Glassco<br/>
 Athenian Faculty<br />
 310-689-9038<br />
+[andrew.glassco@athenian.org][andrew-email]<br />
 House 6<br />
+
+[andrew-email]: mailto:andrew.glassco@athenian.org
 
 
 ### BART Notes
