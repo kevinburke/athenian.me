@@ -35,3 +35,9 @@ I can type:
   the *differences* between versions of your file, and you can flip between
   them at will. [Click here][commits] to see the updates that have been made to
   the files in this folder.
+
+[markdown]: http://daringfireball.net/projects/markdown/
+[markdown.css]: http://kevinburke.bitbucket.org/markdowncss/
+[fabric]: http://docs.fabfile.org/en/1.5/
+[git]: https://help.github.com/
+[commits]: https://github.com/kevinburke/athenian.me/commits/master
