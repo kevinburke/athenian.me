@@ -83,7 +83,7 @@ The schedule will be posted shortly.
 #### Source code
 
 The source code for this website is hosted on [Github][athenian.me]. You are
-encouraged to contribute and improve this page - instructions on getting
+encouraged to contribute to and improve this site - instructions on getting
 started with Git and adding changes can be found [here][bootcamp].
 
 [athenian.me]: https://github.com/kevinburke/athenian.me
