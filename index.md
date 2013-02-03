@@ -2,6 +2,17 @@
 
 # Learn to Code Interim
 
+### Interim Goals
+
+* Learn the basics of making interesting and pretty things with a computer.
+* Learn how to persist when you get stuck, and don't know how to fix something.
+* Build the skills [to debug problems in programs you are writing][xkcd].
+* Learn how to learn, e.g. how to continue building your skill set after this
+  interim.
+* Find out how the Internet, browsers, and mobile phones work
+
+[xkcd]: http://xkcd.com/722/
+
 ### Schedule
 
 **Monday and Tuesday**
