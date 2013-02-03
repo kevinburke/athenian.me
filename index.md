@@ -16,8 +16,10 @@
 
 ### Survey
 
-Please take a few minutes to fill out the following survey, which will give us
+Please take a few minutes to [fill out this survey][survey], which will give us
 a better idea of what you are trying to learn from this interim trip.
+
+[survey]: /survey/
 
 ### Schedule
 
