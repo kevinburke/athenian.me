@@ -41,3 +41,11 @@ I can type:
 [fabric]: http://docs.fabfile.org/en/1.5/
 [git]: https://help.github.com/
 [commits]: https://github.com/kevinburke/athenian.me/commits/master
+
+### Improvements
+
+There are a lot of improvements I'd like to make! Feel free to help out.
+
+* Adding a Profiles page with a photo and description of each student.
+* Adding unique subdomains for each student.
+* Adding instructions for uploading files via FTP to each subdomain.
