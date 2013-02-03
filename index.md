@@ -36,15 +36,35 @@ of Interim:
 - A modern web browser such as [Firefox][firefox] or [Google Chrome][chrome]
 - A client for uploading files to a web server, such as [FileZilla Client][filezilla].
 
-### Notes
+### Leaders
+
+Questions? Hopes? Fears? Send all correspondence (but please, no poetry) to:
+
+Kevin Burke<br/>
+Athenian '06<br />
+925-271-7005<br />
+[kev@inburke.com][email]<br />
+[http://kev.inburke.com][site]<br />
+
+[email]: mailto:kev@inburke.com
+[site]: http://kev.inburke.com
+
+Andrew Glassco<br/>
+Athenian Faculty<br />
+<br />
+[kev@inburke.com][email]<br />
+[http://kev.inburke.com][site]<br />
+
+
+### BART Notes
 
 - We are responsible for the safety and oversight of the students on the field
 trip on Wednesday. Unfortunately this means students must meet us at Walnut
-Creek.
-- Andrew and I will distribute BART tickets to students on Wednesday; do not
-worry about purchasing your own ticket.
+Creek BART on Wednesday morning.
 - Note that if you are parking at the Walnut Creek station, the lot tends to
 fill up by 7:40 AM.
+- Andrew and I will distribute BART tickets to students on Wednesday; do not
+worry about purchasing your own ticket.
 - Students should bring a bag lunch, or money for lunch on Wednesday. Lunch
 should not exceed $12 on Wednesday. Alternately the school cafeteria will be
 open and lunch can be purchased there.
