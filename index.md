@@ -20,35 +20,40 @@
 
 We will meet at 8:30 AM in a location to be determined, either the library
 computer lab or the Middlefield lab. The day will conclude at 3:00PM. I will
-probably stay late to help students with various projects or ideas
+probably stay late to help you with any projects or ideas that you're working
+on.
 
 
 **Wednesday**
 
-On Wednesday we will take BART into San Francisco and walk to two startup
-companies' offices in SOMA. Students will meet at Walnut Creek BART at 8am. We
-will take BART to Embarcadero and Afterwards we will eat lunch and head back to
-Walnut Creek on BART, no later than 2:30PM.
+On Wednesday we will take BART into San Francisco and visit two startup
+companies' offices in SOMA. We will meet at Walnut Creek BART at 8am. We will
+take BART to Embarcadero. Afterwards, we will eat lunch and head back to Walnut
+Creek on BART, no later than 2:30PM. We will finalize the timing as we get
+closer to the start of Interim.
 
 
 ### Equipment
 
-Students are encouraged to bring and use their own laptops, if they have them.
-This way, any work that's done during the interim can continue to be used and
+You are encouraged to bring and use your own laptop, if you have one. This
+way, any work that's done during the interim can continue to be used and
 improved after Interim. School provided computers will be available and they
-are completely suitable for the interim curriculum.
+are completely suitable for the interim curriculum. **Please,** do not purchase
+a laptop solely for this interim - 90% of the curriculum will be completed with
+a text editor and a Web browser, tools available on every computer on the
+planet.
 
 All operating systems (Mac, PC, Linux) are suitable. Students using their own
 laptops are encouraged to install the following free programs before the start
 of Interim:
 
-- [Python 2.7](http://wiki.python.org/moin/BeginnersGuide/Download)
 - A [text editor][editor]. I recommend [Notepad++][notepad] for PC and
   [TextWrangler][wrangler] for Mac. Linux users can use [gedit][gedit].
 - A modern web browser such as [Firefox][firefox] or [Google Chrome][chrome]
 - A client for uploading files to a web server, such as [FileZilla Client][filezilla].
+- [Python 2.7](http://wiki.python.org/moin/BeginnersGuide/Download)
 
-### Leaders
+### Trip Leaders
 
 Questions? Hopes? Fears? Send all correspondence (but please, no poetry) to:
 
@@ -73,15 +78,20 @@ House 6<br />
 ### BART Notes
 
 - We are responsible for the safety and oversight of the students on the field
-trip on Wednesday. Unfortunately this means students must meet us at Walnut
+trip on Wednesday. Unfortunately, this means students must meet us at Walnut
 Creek BART on Wednesday morning.
-- Note that if you are parking at the Walnut Creek station, the lot tends to
-fill up by 7:40 AM.
+- If you are planning to park at the Walnut Creek station, the lot tends to
+fill up by 7:35 AM on commute days. You can park in nearby lots, but it may
+cost anywhere from $10 to $15 (versus $1 for the BART parking lot).
 - Andrew and I will distribute BART tickets to students on Wednesday; do not
 worry about purchasing your own ticket.
-- Students should bring a bag lunch, or money for lunch on Wednesday. Lunch
-should not exceed $12 on Wednesday. Alternately the school cafeteria will be
-open and lunch can be purchased there.
+
+### Food Notes
+
+- On Monday and Tuesday, you should bring a bag lunch, or purchase lunch from
+the school cafeteria. On Wednesday, you should bring money for lunch in SF. We
+are not sure of the exact location, but the cost for food + drink on Wednesday
+should not exceed $13.
 
 [notepad]: http://notepad-plus-plus.org/
 [wrangler]: http://www.barebones.com/products/textwrangler/
@@ -91,9 +101,10 @@ open and lunch can be purchased there.
 [chrome]: https://www.google.com/intl/en/chrome/browser/
 [filezilla]: http://filezilla-project.org/
 
-### Schedule
+### Curriculum
 
-The schedule will be posted shortly.
+We are still working on building a curriculum that will help get the most value
+out of the short amount of time that we have together.
 
 #### Source code
 
