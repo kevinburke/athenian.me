@@ -7,11 +7,6 @@ body {
     list-style-type: none;
 }
 
-.item {
-    float: left;
-    margin: 10px;
-}
-
 @media only screen and (max-width: 560px) {
     .side-panel {
         display: none;
