@@ -1,0 +1,36 @@
+body {
+    background-color: #e0e0e0;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.item {
+    float: left;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 560px) {
+    .side-panel {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
