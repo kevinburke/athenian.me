@@ -1,0 +1,28 @@
+html {
+background-color: maroon;
+font-family: "serif";
+color: white;
+font-size: 30px;
+line-height: 30px;
+}
+
+
+#moztext {
+font-size: 50px;
+
+}
+
+em {
+font-size: 35px;
+font-weight: bold;
+}
+
+#potato {
+font-size: 20px;
+font-family: "serif";
+}
+
+.monkey {
+font-size: 35px;
+font-family: "serif";
+}

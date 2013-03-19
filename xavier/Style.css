@@ -1,0 +1,19 @@
+body {
+background-color: #666;
+font-family: "serif";
+color: #9a0303;
+   width: 400px;  
+     margin: 200px auto;  
+     background: #666;  
+
+
+
+}
+
+
+@media only screen and (max-width: 400px) {
+html{
+background-color: #005cb0;
+font-family: "arial";
+}
+}

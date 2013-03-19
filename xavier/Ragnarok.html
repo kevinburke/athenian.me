@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<title>Cultus Praegressus</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://raw.github.com/kevinburke/tecate/master/tecate.js"></script>
+<link rel="stylesheet" href="doomstyle.css" type="text/css" />
+	<style>
+	h3 {text-align:right}
+	
+	   
+   /* CLICK! */  
+    @font-face {  
+        font-family: 'EfonRegular';  
+        src: url('font/EFON-webfont.eot');  
+        src: local('EfonRegular'), url('font/EFON-webfont.woff') format('woff'), url('font/EFON-webfont.ttf') format('truetype'), url('font/EFON-webfont.svg#webfont') format('svg');  
+        font-weight: normal;  
+        font-style: normal;  
+    }     
+      
+  
+    .click {  
+     width: 400px;  
+     height: 100px;  
+     line-height: 100px;  
+     color: white;  
+     text-decoration: none;  
+     font-size: 50px;  
+     font-family: helvetica, arial;  
+     font-weight: bold;  
+     display: block;  
+     text-align: center;  
+     position: relative;  
+  
+     /* BACKGROUND GRADIENTS */  
+     background: #941414;  
+     background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);  
+     background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C));  
+     /* BORDER RADIUS */  
+     -moz-border-radius: 10px;  
+     -webkit-border-radius: 10px;  
+     border-radius: 10px;  
+  
+     border: 1px solid #000000;  
+     border-top: 1px solid #808080;  
+     /* TEXT SHADOW */  
+  
+     text-shadow: 1px 1px 1px black;  
+  
+     /* BOX SHADOW */  
+     -moz-box-shadow: 0 1px 3px black;  
+     -webkit-box-shadow: 0 1px 3px black;  
+     box-shadow: 0 1px 3px black;  
+    }  
+      
+    /* WHILE HOVERED */  
+    .click:hover {  
+        background: #A82828;  
+        background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);  
+        background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));  
+    }  
+      
+    /* WHILE BEING CLICKED */  
+    .click:active {  
+        -moz-box-shadow: 0 2px 6px black;  
+        -webkit-box-shadow: 0 2px 6px black;  
+    }  
+   /* FONT GLYPH (MOSTLY FOR FUN) */  
+    .click:before {  
+        font-family: EfonRegular;  
+        content: 'X';  
+        color: #159494;  
+        font-size: 90px;  
+        float: left;  
+        margin-left: 35px;  
+        margin-right: -10px;  
+        text-shadow: 0 1px 0 #000000;  
+    }  
+	</style>
+	<!--
+                                                                                                 
+                        oho              ./oo+:      `:ooo/`             .sh/                       
+                       `mMMo            sNmyydNd.   :mNhshNN/            hMMy                       
+                        +MMm           /MN-dm+sMh   NM/sNh:MM`          .MMM-                       
+                        -MMM`          -NM+os+mMo   hMy+sosMm           :MMN                        
+                        `MMM-           -yMNNMd/    `oNNNNNs`           +MMm                        
+                         NMM/             NMMN`       :MMMh             yMMh                        
+                         yMMd             hMMM/.-:::-.sMMM+            .NMM/                        
+                         .mMMy.           .NMMNNNMMMNNMMMd`           -dMMh                         
+                          .hMMNs:.      `-sMMMMMMMMMMMMMMN+.`      ./hNMNs`                         
+                           `:hNMMNmhyyhdmNMMMMMMMMMMMMMMMMMNmdhyhdmNMMms-                           
+                          `..../shdmmmmdNMMMMMMMMMMMMMMMMMMMmdmmmmdyo:....`                         
+                       -odmNNmdo-```````oMMMMMMMMMMMMMMMMMMM:```````:ymNNNmh+`                      
+                      +NMMNddNMMNdysosydNMMMMMMMMMMMMMMMMMMMNdyoosymMMMmddMMMm-                     
+                     `NMMd.``.ohNMMMMMMMNhodMMMMMMMMMMMMMysdNMMMMMMMmh/.``:NMMd                     
+                     `MMMd.    `.-:/+/:-.``dMMMMMNdNMMMMMy `.-//+/:-`     -NMMd                     
+                      +NMMmdy:          `/mMMMMMm.`:NMMMMMh:`          +hdNMMm:                     
+                       -sdNNNy    .://oymMMMMMMM:   oMMMMMMNds+//:.   `dNNNdo.                      
+                         `.-.`  /dNMMMMMMmy/MMMm    .MMMd+hNMMMMMMmy-  `...`                        
+                               oMMMdsoo/-.  NMMm    .MMMh  .:+ooymMMN:                              
+                               NMMm`        hMMM-   +MMMo        -MMMh                              
+                               dMMN+..:os:  :MMMh  .mMMN`  /so-.-sMMMo                              
+                               .hMMMNNMMMh   sMMMs`hMMM/  .NMMNNNMMNs`                              
+                                `:shdddy/`   `yMMm/NMN+    .+ydddho-                                
+                                    ``        `-:. -:-         `                                    
+                                                                                         
+                                                                                                    
+-->
+	</head>
+
+<body>
+<p style="font-size:50px;"><center><i>"Sa skal enden begynne. Ulven <em>Skoll</em> vil gripe solen og slukte henne, sprute asgard med gore. Ulven <em>Hati</em> vil fange manen og mangle ham. Stjernene vil forsvinne. Jorden vil riste. Hver obligasjon og Petter vil sprekke.
+
+kyllinger vil krake a heve de dode i <em>Hels</em> rike og kjemper i Jotenheim. <em>Jormangandr</em> vil arbeide seg fram mot tort land. Skipet Naglfar, laget av dode menns negler, vil seile, fullpakket med gigantene. <em>Loke</em>, fri fra hans obligasjoner, vil seile med de dode fra Hel. Sonner Muspells vil ga fra sor, ledet av Surtr, flammen giganten. Alle vil konvergere pa feltet Vigrid: gigantene og de dode fra <em>Hel</em> og <em>Fenrir</em> og <em>Jormangandr</em> og <em>Surtr</em> og lynrask sonner Muspells.
+
+I mellomtiden gudene, vekket av Heimdall horn, vil mote i kommunestyret. <em>Odin</em> vil ri <em>Sleipnir</em> til <em>Mimir</em> er varen for a ta rad fra <em>Mimir</em>. <em>Yggdrasil</em> vil riste og stonne. Alle æsene og alle Einherjar i Valholl vil armen og forberede seg og folge Odin til Vigrid."</i></center></P>
+&nbsp;
+
+
+<div id="moztext">
+<h3><i>~Norse Mythology</i></h3>
+</div id="moztext">
+&nbsp;
+&nbsp;
+<div class="monkey">
+<P><i>Transilation:</i></p>
+</div class="monkey">
+<div id="potato">
+<p style="font-size:50px;"><center><i>"Then the end will begin. The wolf Skoll will seize the sun and swallow her, spattering Asgard with gore. The wolf Hati will catch the moon and mangle him. The stars will vanish. The earth will shake. Every bond and fetter will burst.
+
+roosters will crow to raise the dead in Hel's realm and the giants in Jotenheim. Jormangandr will work his way towards dry land. The ship Naglfar, made from dead men's nails, will sail, packed with giants. Loki, free from his bonds, will sail with the dead from Hel. The sons of Muspell will advance from the south, led by Surtr, the flame giant. All will converge on the field Vigrid: giants and the dead from Hel and Fenrir and Jormangandr and Surtr and the blazing sons of Muspell.
+
+Meanwhile, the gods, roused by Heimdall's horn, will meet in council. Odin will ride Sleipnir to Mimir's spring to take advice from Mimir. Yggdrasil will shake and moan. All of the AEsir and all of the Einherjar in Valholl will arm and prepare themselves and follow Odin to Vigrid."</i></center></b>
+</div id="potato">
+
+&nbsp;
+&nbsp;
+
+<center><a href="xavier.html" class="click">Xavier </a></center>
+
+
+
+</body>
+</html>
