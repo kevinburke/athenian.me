@@ -9,7 +9,15 @@
 	
 	 <meta charset="utf-8">  
    
-    <style>  
+   <script>
+   
+   function delayer(){
+   window.close();
+   }
+   
+	</script>
+   
+   <style>  
       
    /* CUSTOM FONT */  
     @font-face {  
@@ -27,11 +35,11 @@
 	
 	</head>
 	
-	<body>
+	<body onLoad="setTimeout('delayer()', '550')">
 
 
-<div id="moztext"><p>I Don't Like You</p></div id="moztext">
-	<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSScjfaf3Hi4RffHFznQHhnIyG0rucg-KtCuxMTKCdDtQzlhqo"/>
+<center><div id="moztext"><p>I Don't Like You</p></div id="moztext"></center>
+	<center><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSScjfaf3Hi4RffHFznQHhnIyG0rucg-KtCuxMTKCdDtQzlhqo"/></center>
 
 </body>
 

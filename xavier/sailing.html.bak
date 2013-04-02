@@ -11,7 +11,7 @@ body {
 background-color: #666;
 font-family: "serif";
 color: black;
-background-image:url('chtapodi.png');
+background-image:url('laser.png');
 text-shadow: 0 10px 20px black;
 width: 800px;  
      margin: 50px auto;
