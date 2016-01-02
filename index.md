@@ -1,5 +1,5 @@
 <title>Learn to Code</title>
-<link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link>
+<link href="/css/markdown.css" rel="stylesheet"></link>
 
 # Learn to Code Interim
 
@@ -121,4 +121,3 @@ started with Git and adding changes can be found [here][bootcamp].
 
 [athenian.me]: https://github.com/kevinburke/athenian.me
 [bootcamp]: https://help.github.com/categories/54/articles
-
